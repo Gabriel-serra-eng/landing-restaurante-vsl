@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #0F172A; /* Slate 900 */
+  --color-foreground: #F8FAFC; /* Slate 50 */
+  
+  --color-primary: #EC4899; /* Pink 500 */
+  --color-on-primary: #FFFFFF;
+  
+  --color-secondary: #1E293B; /* Slate 800 */
+  --color-on-secondary: #F8FAFC;
+  
+  --color-accent: #0891B2; /* Cyan 600 */
+  --color-on-accent: #FFFFFF;
+
+  --color-card: #1E293B; /* Slate 800 */
+  --color-card-foreground: #F8FAFC;
+  
+  --color-border: #334155; /* Slate 700 */
+  --color-muted: #334155;
+  --color-muted-foreground: #94A3B8;
+
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-playfair), ui-serif, Georgia, serif;
+}
+
+@layer base {
+  :root {
+    --background: #0F172A;
+    --foreground: #F8FAFC;
+  }
+
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-serif);
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

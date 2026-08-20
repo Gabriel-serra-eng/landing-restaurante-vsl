@@ -1,0 +1,47 @@
+{
+  "project": {
+    "name": "Restaurant Growth",
+    "whatsappNumber": "5511999999999"
+  },
+  "hero": {
+    "headline": "Seu restaurante pode estar sendo visto por muito mais pessoas da sua região.",
+    "subheadline": "Conteúdo que dá vontade de conhecer + anúncios que colocam seu restaurante na frente das pessoas certas."
+  },
+  "vsl": {
+    "title": "A Estratégia de Crescimento para Restaurantes",
+    "videoUrl": "/videos/placeholder-vsl.mp4",
+    "posterUrl": "/images/vsl-poster.jpg"
+  },
+  "narrative": {
+    "transition": "Seu restaurante não precisa apenas aparecer. Precisa dar vontade. E precisa chegar nas pessoas certas.",
+    "contentTitle": "Conteúdo que dá vontade de conhecer.",
+    "contentDescription": "Criamos conteúdos que valorizam aquilo que seu restaurante já tem de melhor.",
+    "trafficTitle": "Tráfego que coloca seu restaurante na frente das pessoas certas.",
+    "trafficDescription": "O conteúdo não fica limitado aos seus seguidores. Ele chega a pessoas da região que podem realmente se interessar pelo restaurante."
+  },
+  "benefits": [
+    "Mais pessoas da região conhecendo o restaurante",
+    "Conteúdo que valoriza os pratos",
+    "Mais alcance sem depender apenas dos seguidores",
+    "Conteúdo e anúncios trabalhando juntos",
+    "Acompanhamento e otimização"
+  ],
+  "portfolio": [
+    {
+      "id": 1,
+      "type": "video",
+      "url": "/videos/portfolio-1.mp4",
+      "thumbnail": "/images/portfolio-1-thumb.jpg"
+    },
+    {
+      "id": 2,
+      "type": "image",
+      "url": "/images/portfolio-2.jpg"
+    }
+  ],
+  "pricing": {
+    "title": "Produção de conteúdo + Gestão de tráfego pago",
+    "price": "R$ 2.700/mês",
+    "disclaimer": "A verba destinada aos anúncios é separada do valor do serviço."
+  }
+}
