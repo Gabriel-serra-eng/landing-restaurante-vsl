@@ -116,6 +116,23 @@ Itens previstos no PRD e ainda pendentes:
 - [ ] Substituir os conteúdos placeholder por vídeos, portfólio e provas reais
 - [ ] Seção de prova social (depoimentos) — prevista no PRD, ainda sem implementação
 
+## Processo de desenvolvimento com IA
+
+Protótipo construído com desenvolvimento assistido por IA. **A aplicação não chama modelos de IA em tempo de execução.**
+
+| Etapa | Ferramenta | Artefato |
+|---|---|---|
+| 1. Estratégia de funil e escopo | Definidos antes do código | [`prd.md`](./prd.md) |
+| 2. Implementação | Desenvolvimento assistido por IA | `src/` |
+| 3. Direção visual | Preparado para iteração no Claude Design | Histórico de commits |
+| 4. Apoio de design ao agente | Skills de design de terceiros | `.agents/skills/` |
+
+### Responsabilidades
+
+- **Minhas:** estratégia de escalada de compromisso, perguntas do formulário, critérios do score de lead (faturamento, orçamento, poder de decisão, disposição para mídia).
+- **Com assistência de IA:** escrita dos componentes, da validação e da Server Action.
+- **De terceiros:** as skills em `.agents/skills/` (design, brand, slides, ui-styling e outras) são pacotes externos usados pelo agente; não são de minha autoria.
+
 ## Autor
 
 **Gabriel Serra** — [GitHub](https://github.com/Gabriel-serra-eng)
